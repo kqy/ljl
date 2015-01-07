@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="邝其毅和梁嘉玲的结婚喜帖" />
+	<meta name="description" content="邝其毅和梁嘉玲的结婚喜帖" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" media="all"/>
+	<link href="css/animate.css" type="text/css" rel="stylesheet" media="all"/>
+	<link href="assets/swipebox/css/swipebox.min.css" type="text/css" rel="stylesheet" media="all"/>
+	<link href="css/css.css" type="text/css" rel="stylesheet" media="all"/>
+	<title>邝其毅与梁嘉玲的婚礼邀请</title>
+</head>
+<body>
+	<div id="preloader">
+		<div id="status">
+			<div id="circleG">
+				<div id="circleG_1" class="circleG"></div>
+				<div id="circleG_2" class="circleG"></div>
+				<div id="circleG_3" class="circleG"></div>
+			</div>
+			<br>
+		</div>
+	</div>
+	<ul class="img-bg">
+		<li><span class="img-bg-item img-bg-1"></span></li>
+		<li><span class="img-bg-item img-bg-2 animated imageAnimation delay060"></span></li>
+		<li><span class="img-bg-item img-bg-3 animated imageAnimation delay120"></span></li>
+		<li><span class="img-bg-item img-bg-4 animated imageAnimation delay180"></span></li>
+	</ul>
+	<div id="contain-bg" class="contain-bg animated fadeInDown">
+		<div>
+			<section class="logo animated">&nbsp;</section>
+			<section class="info-main">
+				<h1 class="name">邝其毅 & 梁嘉玲</h1>
+				<hr class="name-line">
+				<h2 class="address">开平市水口镇上坑村</h2>
+			</section>
+			<section class="timer">
+				<div class="timer-day">00</div>
+				<div class="timer-hour">00</div>
+				<div class="timer-minute">00</div>
+				<div class="timer-second">00</div>
+			</section>
+			<section>
+				<div class="button-container">
+					<div data-flag="social" class="button button-social animated fadeInRightBig"><div class="button-inner"></div></div>
+					<div data-flag="image" class="button button-image animated fadeIn"><div class="button-inner"></div></div>
+					<div data-flag="location" class="button button-location animated fadeInLeftBig"><div class="button-inner"></div></div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div id="contain-social" class="contain-child animated fadeOutUp fast">
+		<div>
+			<section>
+				<h2 class="themeshark_modal_title animated fadeInUp delay010">新婚邀约</h2>
+				<p class="social-text-h3 animated fadeInUp delay015">敬邀各位亲朋好友</p>
+				<p class="social-text-p animated fadeInUp delay015">新郎：邝其毅<br>
+                    新娘：梁嘉玲<br>
+                    在这温馨浪漫，喜悦甜蜜的日子里 我俩决定于2015-01-27(星期二) 下午 18:00举行结婚典礼，届时敬备酒宴，欢迎您到来分享这份喜悦，您的光临将使我们的婚宴增添万分光彩!<br>
+                    <span>地点： 开平市水口镇上坑村</span>
+                </p>
+			</section>
+			<section class="button-section">
+				<div class="button-close" data-flag="social">×</div>
+			</section>
+		</div>
+	</div>
+	<div id="contain-image" class="contain-child animated fadeOutUp fast">
+		<div>
+			<section>
+				<h2 class="themeshark_modal_title animated fadeInUp delay010">图片</h2>
+				<div class="animated fadeInUp delay015 gallery-container">
+					<a rel="gallery-1" href="images/2.jpg" class="swipebox"><img src="images/2.jpg" alt="image" width="150" height="100"></a>
+					<a rel="gallery-1" href="images/3.jpg" class="swipebox"><img src="images/3.jpg" alt="image" width="150" height="100"></a>
+					<a rel="gallery-1" href="images/4.jpg" class="swipebox"><img src="images/4.jpg" alt="image" width="150" height="100"></a>
+					<a rel="gallery-1" href="images/5.jpg" class="swipebox"><img src="images/5.jpg" alt="image" width="100" height="150"></a>
+				</div>
+			</section>
+			<section class="button-section">
+				<div class="button-close" data-flag="image">×</div>
+			</section>
+		</div>
+	</div>
+	<div id="contain-location" class="contain-child animated fadeOutUp fast">
+		<div>
+			<section>
+				<h2 class="fa fa-location-arrow themeshark_modal_title animated fadeInUp delay010">位置</h2>
+				<div id="contain-bmap" class="contain-bmap animated fadeInUp delay015"></div>
+				<a class="animated fadeInUp delay015" href="images/nav.jpg" target="_blank">查看导航信息</a>
+			</section>
+			<section class="button-section">
+				<div class="button-close" data-flag="location">×</div>
+			</section>
+		</div>
+	</div>
+</body>
+<script src="./js/sea.js"></script>
+<script src="./js/jquery-2.1.3.min.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=Xk9ipLT2WnTS6PK7uKApGCwK"></script>
+<script>
+	seajs.config({
+		base: "./js/",
+		alias: {
+			"jquery": "jquery-2.1.3.min.js"
+			,"iscroll": "iscroll-lite.js"
+			,"swipebox": "../assets/swipebox/js/jquery.swipebox.min.js"
+			,"map": "http://api.map.baidu.com/api?v=2.0&ak=Xk9ipLT2WnTS6PK7uKApGCwK"
+		}
+	}).use("main");
+</script>
+<script type="text/javascript">
+
+    $(document).one('touchstart', function (e) {
+        var music = document.getElementById("audio_play");
+        if (music.paused) {
+            music.play();
+        }
+    });
+
+    function play_music(){
+        if ($('#mc_play').hasClass('on')){
+            $('#mc_play audio').get(0).pause();
+            $('#mc_play').attr('class','stop');
+        }else{
+            $('#mc_play audio').get(0).play();
+            $('#mc_play').attr('class','on');
+        }
+    }
+
+</script>
+<span id="musicControl">
+    <a id="mc_play" class="on" onclick="play_music();">
+        <audio autoplay="autoplay" id="audio_play" loop="">
+            <source src="http://114.215.193.16/templates/mp3/couldThisBeLove.mp3" type="audio/mpeg">
+        </audio>
+    </a>
+</span>
+<script>
+    var firstpic = "http://kqy.me/ljl/images/4.jpg";
+    //var contentModel = {
+    //    "img_url": firstpic,
+    //    "title": "梁山伯与祝英台的婚礼邀请",
+    //    "src": "谨于2012年08月02日上午 10点30分举行典礼，地址：北京市朝阳区东皇凯里酒店"
+    //};
+
+
+    //微信分享
+    var imgUrl = firstpic;  // 分享后展示的一张图片
+    var lineLink = 'http://kqy.me/ljl/'; // 点击分享后跳转的页面地址
+    var descContent = "谨于2015年01月27日下午 6点正举行婚宴，地址： 开平市水口镇上坑村";  // 分享后的描述信息
+    var shareTitle = '邝其毅与梁嘉玲的婚礼邀请';  // 分享后的标题
+    var appid = '';  // 应用id,如果有可以填，没有就留空
+
+    function shareFriend() {
+        WeixinJSBridge.invoke('sendAppMessage',{
+            "appid": appid,
+            "img_url": imgUrl,
+            "img_width": "200",
+            "img_height": "200",
+            "link": lineLink,
+            "desc": descContent,
+            "title": shareTitle
+        }, function(res) {
+            //_report('send_msg', res.err_msg);  // 这是回调函数，必须注释掉
+        })
+    }
+    function shareTimeline() {
+        WeixinJSBridge.invoke('shareTimeline',{
+            "img_url": imgUrl,
+            "img_width": "200",
+            "img_height": "200",
+            "link": lineLink,
+            "desc": descContent,
+            "title": shareTitle
+        }, function(res) {
+            //_report('timeline', res.err_msg); // 这是回调函数，必须注释掉
+        });
+    }
+    function shareWeibo() {
+        WeixinJSBridge.invoke('shareWeibo',{
+            "content": descContent,
+            "url": lineLink
+        }, function(res) {
+            //_report('weibo', res.err_msg);
+        });
+    }
+    // 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。
+    document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+        // 发送给好友
+        WeixinJSBridge.on('menu:share:appmessage', function(argv){
+            shareFriend();
+        });
+        // 分享到朋友圈
+        WeixinJSBridge.on('menu:share:timeline', function(argv){
+            shareTimeline();
+        });
+        // 分享到微博
+        WeixinJSBridge.on('menu:share:weibo', function(argv){
+            shareWeibo();
+        });
+    }, false);
+</script>
+</html>

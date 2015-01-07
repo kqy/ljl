@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="关键字" />
+	<meta name="description" content="描述" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" media="all"/>
+	<link href="css/animate.css" type="text/css" rel="stylesheet" media="all"/>
+	<link href="assets/swipebox/css/swipebox.min.css" type="text/css" rel="stylesheet" media="all"/>
+	<link href="css/css.css" type="text/css" rel="stylesheet" media="all"/>
+	<title>标题</title>
+</head>
+<body>
+	<div class="loading"></div>
+	<ul class="img-bg">
+		<li><span class="img-bg-item img-bg-1"></span></li>
+		<li><span class="img-bg-item img-bg-2 animated imageAnimation delay060"></span></li>
+		<li><span class="img-bg-item img-bg-3 animated imageAnimation delay120"></span></li>
+		<li><span class="img-bg-item img-bg-4 animated imageAnimation delay180"></span></li>
+	</ul>
+	<div id="contain-bg" class="contain-bg animated fadeInDown">
+		<div>
+			<section class="logo animated">图标</section>
+			<section class="info-main">
+				<h1 class="name">我和你 & 你和我</h1>
+				<hr class="name-line">
+				<h2 class="address">心连心</h2>
+			</section>
+			<section class="timer">
+				<div class="timer-day">00</div>
+				<div class="timer-hour">00</div>
+				<div class="timer-minute">00</div>
+				<div class="timer-second">00</div>
+			</section>
+			<section>
+				<div class="button-container">
+					<div data-flag="social" class="button button-social animated fadeInRightBig"><div class="button-inner"></div></div>
+					<div data-flag="image" class="button button-image animated fadeIn"><div class="button-inner"></div></div>
+					<div data-flag="location" class="button button-location animated fadeInLeftBig"><div class="button-inner"></div></div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div id="contain-social" class="contain-child animated fadeOutUp fast">
+		<div>
+			<section>
+				<h2>标题</h2>
+				<p>内容</p>
+				<p>内容</p>
+				<p>内容</p>
+				<p>内容</p>
+				<p>内容</p>
+			</section>
+			<section class="button-section">
+				<div class="button-close" data-flag="social">×</div>
+			</section>
+		</div>
+	</div>
+	<div id="contain-image" class="contain-child animated fadeOutUp fast">
+		<div>
+			<section>
+				<h2>图片</h2>
+				<div>
+					<a rel="gallery-1" href="images/1.jpg" class="swipebox"><img src="images/1.jpg" alt="image" width="100" height="150"></a>
+					<a rel="gallery-1" href="images/2.jpg" class="swipebox"><img src="images/2.jpg" alt="image" width="100" height="150"></a>
+					<a rel="gallery-1" href="images/3.jpg" class="swipebox"><img src="images/3.jpg" alt="image" width="100" height="150"></a>
+				</div>
+			</section>
+			<section class="button-section">
+				<div class="button-close" data-flag="image">×</div>
+			</section>
+		</div>
+	</div>
+	<div id="contain-location" class="contain-child animated fadeOutUp fast">
+		<div>
+			<section>
+				<h2 class="fa fa-location-arrow">位置</h2>
+				<div id="contain-bmap" class="contain-bmap"></div>
+				<p>查看导航信息</p>
+			</section>
+			<section class="button-section">
+				<div class="button-close" data-flag="location">×</div>
+			</section>
+		</div>
+	</div>
+</body>
+<script src="./js/sea.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Xk9ipLT2WnTS6PK7uKApGCwK"></script>
+<script>
+	var config;
+	if(window.addEventListener){
+		config = {
+			Jq:"jquery-2.1.3.min.js"
+		}
+	}else{
+		config = {
+			Jq:"jquery-1.11.2.min.js"
+		}
+	}
+	
+	seajs.config({
+		base: "./js/",
+		alias: {
+			"jquery": config.Jq
+			,"iscroll": "iscroll-lite.js"
+			,"swipebox": "../assets/swipebox/js/jquery.swipebox.min.js"
+			,"map": "http://api.map.baidu.com/api?v=2.0&ak=Xk9ipLT2WnTS6PK7uKApGCwK"
+		}
+	});
+	
+	seajs.use("main");
+</script>
+</html>

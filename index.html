@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="关键字" />
+	<meta name="description" content="描述" />
+	<title>主页</title>
+</head>
+<body>
+<script>
+    function m(){
+        var ua = navigator.userAgent.toLowerCase();
+        return (/MicroMessenger/i.test(ua) || /android/i.test(ua) || /iphone/i.test(ua) || /mobile/i.test(ua))
+    }
+
+	location.href = m() ?  "m.html" : "pp.htm";
+</script>
+</body>
+</html>

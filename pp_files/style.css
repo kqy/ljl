@@ -1,0 +1,333 @@
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+audio {
+	display: block;
+}
+canvas {
+	display: block;
+}
+command {
+	display: block;
+}
+datalist {
+	display: block;
+}
+details {
+	display: block;
+}
+embed {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+keygen {
+	display: block;
+}
+meter {
+	display: block;
+}
+nav {
+	display: block;
+}
+output {
+	display: block;
+}
+progress {
+	display: block;
+}
+section {
+	display: block;
+}
+source {
+	display: block;
+}
+video {
+	display: block;
+}
+mark {
+	display: inline;
+}
+rp {
+	display: inline;
+}
+rt {
+	display: inline;
+}
+ruby {
+	display: inline;
+}
+summary {
+	display: inline;
+}
+time {
+	display: inline;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+html {
+	min-width: 990px;
+}
+body {
+	background: url("../images/body-bg.jpg") rgb(255, 255, 255); color: rgb(131, 122, 106); line-height: 1em; font-family: Arial, Helvetica, sans-serif; font-size: 100%;
+}
+div {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: top;
+}
+a {
+	color: rgb(226, 107, 1); text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h2 {
+	text-transform: none; line-height: 1.2em; font-family: "΢���ź�"; font-size: 3em; margin-bottom: 16px;
+}
+h2.extra {
+	margin-bottom: 7px;
+}
+h2.extra1 {
+	margin-bottom: 14px;
+}
+h4 {
+	text-transform: none; line-height: 24px; font-size: 2em; font-weight: normal; margin-bottom: 16px;
+}
+h6 {
+	line-height: 15px; font-size: 1.1em;
+}
+p {
+	line-height: 15px; margin-bottom: 15px;
+}
+p.extra {
+	margin-bottom: 20px;
+}
+p.extra1 {
+	margin-bottom: 8px;
+}
+#main {
+	margin: 0px auto; width: 990px; height: 100%; font-size: 100%; position: relative;
+}
+.top_brd {
+	left: 0px; top: 0px; width: 100%; border-top-color: rgb(55, 51, 44); border-top-width: 10px; border-top-style: solid; position: absolute; min-width: 990px;
+}
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+.align_center {
+	text-align: center;
+}
+.align_right {
+	text-align: right;
+}
+.wrapper {
+	width: 100%; overflow: hidden;
+}
+.clear {
+	height: 0px; line-height: 0%; clear: both; font-size: 0%;
+}
+header h1 {
+	left: 300px; top: 6%; position: absolute;
+}
+header h1 a {
+	background: url("../images/logo.png") no-repeat; width: 368px; height: 57px; color: rgb(68, 63, 54); text-indent: -999em; text-decoration: none; display: block;
+}
+header h1 a:hover {
+	text-decoration: none;
+}
+header h1 .desc {
+	font: 28px/1.2em "΢���ź�", Helvetica, sans-serif; left: 30px; top: 70px; color: rgb(162, 149, 126); text-transform: uppercase; display: none; position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+header h1 .desc .sndln {
+	color: rgb(96, 89, 75); letter-spacing: 0.01em; font-size: 22px;
+}
+#content {
+	left: 406px; top: 12%; height: 459px; overflow: hidden; padding-left: 4px; margin-top: 164px; position: absolute;
+}
+#content > dd {
+	margin: 0px 1px 0px 0px; height: 459px; float: left; position: relative;
+}
+#content > dt {
+	margin: 0px 1px 0px 0px; height: 459px; float: left; position: relative;
+}
+#content > dt {
+	background: url("../images/nav-sprite.png") no-repeat; width: 59px; z-index: 5;
+}
+#content > dd {
+	width: 680px; overflow: hidden; position: relative; z-index: 1;
+}
+#content > dt a {
+	background: url("../images/nav-sprite.png") no-repeat; width: 59px; height: 459px; display: block;
+}
+#content > .dt1 {
+	
+}
+#content > .dt1 a {
+	background-position: 0px -459px;
+}
+#content > .dt2 {
+	background-position: -60px 0px;
+}
+#content > .dt2 a {
+	background-position: -60px -459px;
+}
+#content > .dt3 {
+	background-position: -120px 0px;
+}
+#content > .dt3 a {
+	background-position: -120px -459px;
+}
+#content > .dt4 {
+	background-position: -180px 0px;
+}
+#content > .dt4 a {
+	background-position: -180px -459px;
+}
+#content > .dt5 {
+	background-position: -240px 0px;
+}
+#content > .dt5 a {
+	background-position: -240px -459px;
+}
+#content .inner {
+	background: url("../images/content_bg.jpg") repeat-x left top; border-radius: 13px; height: 459px; position: relative; -webkit-border-radius: 13px; -moz-border-radius: 13px;
+}
+.slider {
+	background: url("../images/slide1.png"); width: 680px; height: 459px; position: relative;
+}
+.slider article {
+	padding-top: 140px; padding-left: 150px;
+}
+.slider article p {
+	line-height: 1.5em; font-size: 14px;
+}
+article {
+	padding: 22px 45px; width: 590px; text-transform: uppercase; font-size: 0.83em; max-width: 590px;
+}
+#gallery {
+	height: 377px; overflow: hidden; padding-top: 22px;
+}
+#gallery .viewport {
+	width: 590px; height: 279px; overflow: hidden; float: left; position: relative;
+}
+#gallery .galerry_nav {
+	background: url("../images/gal_nav_separator.gif") no-repeat center 20px; height: 45px; padding-top: 23px; float: left;
+}
+#gallery .buttons {
+	background-position: left bottom; margin: 0px 21px 0px 0px; width: 45px; height: 45px; text-indent: -9999px; float: left; display: block; background-repeat: no-repeat;
+}
+#gallery .prev {
+	background-image: url("../images/l_arrow.jpg");
+}
+#gallery .next {
+	margin-right: 0px; background-image: url("../images/r_arrow.jpg");
+}
+#gallery .buttons:hover {
+	
+}
+#gallery .disable {
+	
+}
+#gallery .overview {
+	list-style: none; margin: 0px; padding: 0px; left: 0px; top: 0px; position: absolute;
+}
+#gallery .overview li {
+	margin: 0px 14px 0px 0px; width: 288px; height: 309px; float: left;
+}
+.list1 {
+	
+}
+.list1 li {
+	overflow: hidden; margin-bottom: 17px;
+}
+.list1 h4 {
+	padding-top: 8px; margin-bottom: 0px;
+}
+.list1 h4 a {
+	color: rgb(128, 116, 101);
+}
+.list1 h4 img {
+	margin: -7px 10px 0px 0px;
+}
+.list1 p {
+	margin: -1px 0px 0px;
+}
+.contacts {
+	padding-right: 87px;
+}
+.more {
+	background: url("../images/more_l.jpg") no-repeat left top; color: rgb(131, 121, 102); text-transform: none; line-height: 46px; font-size: 2em; text-decoration: none; display: inline-block; text-shadow: 1px 1px 1px #fff;
+}
+.more span {
+	background: url("../images/more_r.jpg") no-repeat right top; padding: 0px 23px; display: block; cursor: pointer;
+}
+.more:hover {
+	background-position: left bottom; text-decoration: none;
+}
+.more:hover span {
+	background-position: right bottom;
+}
+.link {
+	font-size: 1.1em; font-weight: bold;
+}
+#contact_form {
+	width: 302px; overflow: hidden; padding-top: 4px; margin-right: 41px; float: left;
+}
+#contact_form .clearfix {
+	width: 100%; margin-bottom: 9px; position: relative;
+}
+#contact_form input {
+	background: rgb(201, 190, 167); font: 12px/normal Arial, Helvetica, sans-serif; margin: 0px; padding: 14px 18px; border-radius: 19px; border: currentColor; width: 266px; color: rgb(131, 122, 106); text-transform: uppercase; float: left; position: relative; font-size-adjust: none; font-stretch: normal; -webkit-border-radius: 19px; -moz-border-radius: 19px;
+}
+#contact_form textarea {
+	background: rgb(201, 190, 167); font: 12px/normal Arial, Helvetica, sans-serif; margin: 0px; padding: 14px 18px; border-radius: 19px; border: currentColor; width: 266px; color: rgb(131, 122, 106); text-transform: uppercase; float: left; position: relative; font-size-adjust: none; font-stretch: normal; -webkit-border-radius: 19px; -moz-border-radius: 19px;
+}
+#contact_form textarea {
+	height: 88px; text-transform: uppercase; overflow: auto; resize: none;
+}
+#contact_form .buttons {
+	text-align: right; padding-top: 15px;
+}
+#contact_form .buttons a span {
+	padding: 0px 26px;
+}
+.pic_indent {
+	margin: 0px;
+}
+.orange {
+	color: rgb(255, 132, 0);
+}
+.right_indent {
+	padding-right: 35px;
+}
+footer {
+	top: 12%; width: 100%; height: 40px; text-align: center; margin-top: 700px; position: absolute;
+}
+footer a {
+	color: rgb(85, 78, 67);
+}
+footer .privacy {
+	font: 12px/normal Arial, Helvetica, sans-serif; color: rgb(85, 78, 67); text-transform: uppercase; margin-left: -1px; font-size-adjust: none; font-stretch: normal;
+}
