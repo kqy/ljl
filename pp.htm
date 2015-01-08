@@ -49,6 +49,13 @@
     <META name="GENERATOR" content="MSHTML 10.00.9200.16843">
 </HEAD>
 <BODY onload="clearInput('contact_form')">
+<script>
+    function m(){
+        var ua = navigator.userAgent.toLowerCase();
+        return (/MicroMessenger/i.test(ua) || /android/i.test(ua) || /iphone/i.test(ua) || /mobile/i.test(ua))
+    }
+    if(m()){ location.href = "m.html"; }
+</script>
 <DIV id="main"><!-- header -->
     <HEADER>
         <H1><A href="#"><SPAN
